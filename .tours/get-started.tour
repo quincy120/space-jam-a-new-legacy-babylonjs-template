@@ -1,0 +1,57 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Get Started",
+  "steps": [
+    {
+      "file": "README.md",
+      "description": "Welcome to the CodeTour for the fourth module in the *Space Jam: A New Legacy* inspired Microsoft Learn learning path! If you are encountering this CodeTour and want to make sure you're following along with the right module, head over to the [Get started with Babylon.js unit](https://docs.microsoft.com/learn/modules/build-mixed-reality-with-babylonjs/get-started-with-babylonjs) in the Build Mixed Reality with Babylon.js module to follow along!",
+      "line": 43
+    },
+    {
+      "file": "src/index.html",
+      "description": "The body of the HTML file (or the body of the webpage) contains only one object: the canvas. This is where the 3D mixed reality experience will be rendered. \r\n\r\nAdditionally, you ensure that the webpage knows about the JavaScript file that contains all of the functions that determine interactions. ",
+      "line": 26
+    },
+    {
+      "file": "src/index.ts",
+      "description": "At this point, you should have imported all of the Babylon.js Mixed Reality libraries that you will need to create a 3D environment based on an image, and integrate physics into the world. \r\n\r\nAdditionally, you should have imported the generic wood flooring from the Babylon.js textures.",
+      "line": 15
+    },
+    {
+      "file": "src/index.ts",
+      "description": "You now need to get access to the HTML canvas that you created in the HTML file so that you can add components to it.",
+      "line": 16
+    },
+    {
+      "file": "src/index.ts",
+      "description": "This section initiates the 3D engine that Babylon.js uses.",
+      "line": 27
+    },
+    {
+      "file": "src/index.ts",
+      "description": "The scene is where a lot of the interesting pieces come together! Here is where you will want to create the \"floor\" and the \"walls\". With that, you also need:\r\n- A camera\r\n- Lights\r\n- Physics\r\n- An environment (the characters)",
+      "line": 30
+    },
+    {
+      "file": "src/index.ts",
+      "description": "Since the project you're creating today is simple, you can use a Babylon.js default engine to render the 3D space.",
+      "line": 105
+    },
+    {
+      "file": "src/index.ts",
+      "description": "Once you have the scene created, you can use the engine to render it.",
+      "line": 117
+    },
+    {
+      "file": "src/index.ts",
+      "description": "Finally, you should always be checking to see if the web page window is being re-sized, and from there adjust the engine and therefore the scene.",
+      "line": 121
+    },
+    {
+      "file": "README.md",
+      "description": "And that's all folks! Make sure to [head back to the Learn module](https://docs.microsoft.com/learn/modules/build-mixed-reality-with-babylonjs/9-knowledge-check) to complete the knowledge check and earn your badge!",
+      "line": 44
+    }
+  ],
+  "ref": "main"
+}
